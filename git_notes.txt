@@ -10,4 +10,6 @@ git add git_notes.txt
 
 git add --all
 
-.gitignore
+.gitignore   файл для списка игнора
+
+git commit -m "комментарий"
