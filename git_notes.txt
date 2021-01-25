@@ -13,3 +13,28 @@ git add --all
 .gitignore   файл дл€ списка игнора
 
 git commit -m "комментарий"
+
+создание ссылки на удаленный репозиторий
+git remote add testproj https://github.com/mister-ru-bit/MyTestProjects
+
+—писок удаленных репозиториев
+git remote
+
+заливка проекта на удаленный репозиторий
+git push terstproj master
+
+===============================================
+Еor create a new repository on the command line
+echo "# MyTestProjects" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mister-ru1966/MyTestProjects.git
+git push -u origin master
+
+Еor push an existing repository from the command line
+git remote add origin https://github.com/mister-ru1966/MyTestProjects.git
+git branch -M master
+git push -u origin master
+===============================================
