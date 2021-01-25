@@ -1,0 +1,13 @@
+git init
+
+git config --global user.name "Ruslan Bityukov"
+
+git config --global user.email "mister_ru@ukr.net"
+
+git status
+
+git add git_notes.txt
+
+git add --all
+
+.gitignore
