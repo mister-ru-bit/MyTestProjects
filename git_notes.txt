@@ -23,6 +23,11 @@ git remote
 заливка проекта на удаленный репозиторий
 git push terstproj master
 
+создание новой версии
+git tag "version 1.0"
+
+12.24 продолжить
+
 ===============================================
 Еor create a new repository on the command line
 echo "# MyTestProjects" >> README.md
