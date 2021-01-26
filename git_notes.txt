@@ -2,6 +2,8 @@ git init
 
 git config --global user.name "Ruslan Bityukov"
 
+есть еще --local
+
 git config --global user.email "mister_ru@ukr.net"
 
 git status
@@ -26,7 +28,23 @@ git push terstproj master
 создание новой версии
 git tag "version 1.0"
 
-12.24 продолжить
+git log  ctrl + c выйти
+
+создание новой ветки
+git branch <name>
+переход на новую ветку
+git checkout <name>
+
+возвращение в master
+git checkout master
+коммит изменений в master
+git commit -m "Fixed errors"
+
+слияние веток
+git merge
+
+посмотреть какие есть ветки
+git branch -a
 
 ===============================================
 …or create a new repository on the command line
