@@ -1,0 +1,1 @@
+https://pythonawesome.com/a-python-library-for-rich-text-and-beautiful-formatting-in-the-terminal/
